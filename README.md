@@ -74,6 +74,10 @@ mvn package
 mvn test
 ```
 
+## Publishing
+
+For maintainers — see the [Maven Central Release Guide](https://gist.github.com/hstefanov1/de7f1c984a8a01ad66a0240b09e370ab) for publishing instructions.
+
 ---
 
 ## Requirements
