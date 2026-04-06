@@ -4,7 +4,7 @@
 
     <groupId>io.github.hstefanov1</groupId>
     <artifactId>nif-validator</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>nif-validator</name>
@@ -29,7 +29,7 @@
         <connection>scm:git:git://github.com/hstefanov1/nif-validator.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/hstefanov1/nif-validator.git</developerConnection>
         <url>https://github.com/hstefanov1/nif-validator</url>
-        <tag>1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
