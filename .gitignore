@@ -1,0 +1,14 @@
+### Mac OS ###
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode
+
+### Project ###
+target
