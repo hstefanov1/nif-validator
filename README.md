@@ -20,11 +20,11 @@ nif-validator/
 ├── src/
 │   ├── main/
 │   │   └── java/
-│   │       └── io/github/hstefanov1/nifvalidator/
+│   │       └── io/github/stefshield/nifvalidator/
 │   │           └── NifValidator.java
 │   └── test/
 │       └── java/
-│           └── io/github/hstefanov1/nifvalidator/
+│           └── io/github/stefshield/nifvalidator/
 │               └── NifValidatorTest.java
 ├── pom.xml
 ├── README.md
@@ -36,7 +36,7 @@ nif-validator/
 ## Usage
 
 ```java
-import io.github.hstefanov1.nifvalidator.NifValidator;
+import io.github.stefshield.nifvalidator.NifValidator;
 
 NifValidator.isNif("372818281"); // false
 NifValidator.isNif("545259045"); // true
@@ -45,7 +45,7 @@ NifValidator.isNif("545259045"); // true
 ### Method
 
 ```java
-public static boolean isNif(String nif)
+public static boolean isNif(String nif);
 ```
 
 | Parameter | Type     | Description                        |

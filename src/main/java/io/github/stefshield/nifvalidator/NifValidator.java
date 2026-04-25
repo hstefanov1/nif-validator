@@ -1,4 +1,4 @@
-package io.github.hstefanov1.nifvalidator;
+package io.github.stefshield.nifvalidator;
 
 public class NifValidator {
 
