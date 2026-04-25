@@ -2,6 +2,9 @@ package io.github.stefshield.nifvalidator;
 
 public class NifValidator {
 
+    private NifValidator() {
+    }
+
     /**
      * Validates a Portuguese NIF (Número de Identificação Fiscal).
      * Checks format, digit-only content, and the official check digit algorithm.
