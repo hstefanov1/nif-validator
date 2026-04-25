@@ -1,5 +1,18 @@
 package io.github.stefshield.nifvalidator;
 
+/**
+ * Utility class for validating Portuguese NIF (Número de Identificação Fiscal).
+ *
+ * <p>A NIF is a 9-digit tax identification number assigned to individuals
+ * and legal entities in Portugal. Validation is performed by checking the
+ * format and applying the official modulo-11 check digit algorithm.</p>
+ *
+ * <p>This class is not instantiable; use the static method directly:</p>
+ * <pre>{@code
+ * boolean valid = NifValidator.isNif("123456789");
+ * }</pre>
+ *
+ */
 public class NifValidator {
 
     private NifValidator() {
@@ -11,7 +24,6 @@ public class NifValidator {
      *
      * @param nif the 9-digit tax identification number to validate
      * @return {@code true} if the NIF is mathematically valid, {@code false} otherwise
-     * @author hstefanov1
      */
     public static boolean isNif(String nif) {
         if (nif == null || nif.length() != 9 || !nif.chars().allMatch(Character::isDigit)) {
