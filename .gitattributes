@@ -1,0 +1,54 @@
+# StefShield .gitattributes
+#
+# Reference template for all repositories.
+# Copy to repo root to activate.
+#
+# https://git-scm.com/docs/gitattributes
+
+# Normalize all text files and enforce LF
+* text=auto eol=lf
+
+
+# Binary files
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.webp      binary
+*.ico       binary
+*.svg       binary
+
+*.pdf       binary
+*.zip       binary
+*.tar       binary
+*.gz        binary
+
+*.jar       binary
+*.war       binary
+*.class     binary
+
+*.ttf       binary
+*.woff      binary
+*.woff2     binary
+*.eot       binary
+
+
+# Diff improvements
+*.md        diff=markdown
+*.java      diff=java
+
+
+# GitHub Linguist overrides
+#
+# vendored dependencies
+# node_modules/**  linguist-vendored
+# vendor/**        linguist-vendored
+#
+# generated output
+# dist/**          linguist-generated
+# build/**         linguist-generated
+# *.min.js         linguist-generated
+# *.min.css        linguist-generated
+#
+# documentation
+# docs/**          linguist-documentation

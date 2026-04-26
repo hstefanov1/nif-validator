@@ -1,14 +1,39 @@
-### Mac OS ###
-.DS_Store
+# Compiled output
+*.class
+*.jar
+*.war
+*.ear
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Maven
+target/
+pom.xml.*
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+logs/
+
+# Environment variables (secrets)
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
 *.iml
-*.ipr
+out/
+.classpath
+.project
+.settings/
+bin/
+.vscode/
 
-### VS Code ###
-.vscode
-
-### Project ###
-target
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.tmp

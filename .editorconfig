@@ -1,0 +1,36 @@
+# EditorConfig for StefShield projects
+#
+# This file defines the base formatting rules for all repositories.
+# It should be placed at the root of each repository.
+# Most editors will automatically apply these settings.
+#
+# See https://editorconfig.org for more information.
+
+root = true
+
+# Defaults for all files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+max_line_length = 120
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Java
+[*.java]
+indent_size = 4
+
+# YAML
+[*.{yml,yaml}]
+indent_size = 2
+# no line length enforcement (long URLs and values are common)
+max_line_length = off
+
+# Markdown
+[*.md]
+# preserve trailing whitespace (two spaces = line break)
+trim_trailing_whitespace = false
+# no line length enforcement (prose and URLs should not be wrapped)
+max_line_length = off
